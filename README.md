@@ -18,7 +18,7 @@ while True:
     s.send(msg.encode()) 
     print("Server > ",s.recv(1024).decode())
 ```
-# Server :
+### Server :
 ```
 import socket 
 s=socket.socket() 
